@@ -85,7 +85,7 @@ The first step for all three of these strategies is to [publish to NPM](https://
 
 ### Script tag
 
-- Put a script tag similar to this `<script type='module' src='https://unpkg.com/sharing-btn@0.0.1/dist/sharing-btn.esm.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script type='module' src='https://unpkg.com/sharing-btn@0.1.0/dist/sharing-btn.esm.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
@@ -99,6 +99,13 @@ The first step for all three of these strategies is to [publish to NPM](https://
 - Run `npm install sharing-btn --save`
 - Add an import to the npm packages `import sharing-btn;`
 - Then you can use the element anywhere in your template, JSX, html etc
+
+## Credits
+
+I would like to extend our gratitude to the following resources:
+
+- [Sharingbuttons](https://Sharingbuttons.io) - Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.
+- [StencilJS](https://stenciljs.com/) - A Web Component compiler for building fast, reusable UI components.
 
 ## Author
 
