@@ -1,19 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@stencil/core': ^2.21.0
-  '@types/jest': ^27.0.3
-  jest: ^27.0.3
-  jest-cli: ^27.4.5
-  puppeteer: ^19.4.1
+  '@stencil/core': 2.21.0
+  '@types/jest': 27.5.2
+  jest: 27.5.1
+  jest-cli: 27.5.1
+  puppeteer: 19.4.1
 
 dependencies:
   '@stencil/core': 2.21.0
 
 devDependencies:
-  '@types/jest': 27.0.3
-  jest: 27.0.3
-  jest-cli: 27.4.5
+  '@types/jest': 27.5.2
+  jest: 27.5.1
+  jest-cli: 27.5.1
   puppeteer: 19.4.1
 
 packages:
@@ -667,10 +667,10 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.0.3:
-    resolution: {integrity: sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==}
+  /@types/jest/27.5.2:
+    resolution: {integrity: sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==}
     dependencies:
-      jest-diff: 27.5.1
+      jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
     dev: true
 
@@ -1592,8 +1592,8 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli/27.4.5:
-    resolution: {integrity: sha512-hrky3DSgE0u7sQxaCL7bdebEPHx5QzYmrGuUjaPLmPE8jx5adtvGuOlRspvMoVLTTDOHRnZDoRLYJuA+VCI7Hg==}
+  /jest-cli/27.5.1:
+    resolution: {integrity: sha512-Hc6HOOwYq4/74/c62dEE3r5elx8wjYqxY0r0G/nFrLDPMFRu6RA/u8qINOIkvhxG7mMQ5EJsOGfRpI8L6eFUVw==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
@@ -2001,19 +2001,19 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jest/27.0.3:
-    resolution: {integrity: sha512-0G9+QqXFIZWgf5rs3yllpaA+13ZawVHfyuhuCV1EnoFbX++rVMRrYWCAnk+dfhwyv9/VTQvn+XG969u8aPRsBg==}
+  /jest/27.5.1:
+    resolution: {integrity: sha512-Yn0mADZB89zTtjkPJEXwrac3LHudkQMR+Paqa8uxJHCBr9agxztUifWCyiYrjhMPBoUVBjyny0I7XH6ozDr7QQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
-      node-notifier: ^8.0.1 || ^9.0.0
+      node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
     peerDependenciesMeta:
       node-notifier:
         optional: true
     dependencies:
       '@jest/core': 27.5.1
       import-local: 3.1.0
-      jest-cli: 27.4.5
+      jest-cli: 27.5.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
