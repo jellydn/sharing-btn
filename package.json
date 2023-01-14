@@ -2,28 +2,25 @@
   "name": "sharing-btn",
   "version": "0.1.1",
   "description": "Social Sharing Buttons",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.js",
-  "es2015": "dist/esm/index.mjs",
-  "es2017": "dist/esm/index.mjs",
-  "types": "dist/types/index.d.ts",
-  "collection": "dist/collection/collection-manifest.json",
-  "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/sharing-btn/sharing-btn.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/jellydn/sharing-btn.git"
   },
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "unpkg": "dist/sharing-btn/sharing-btn.esm.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist/",
     "loader/"
   ],
   "scripts": {
     "build": "stencil build --docs",
+    "generate": "stencil generate",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
     "@stencil/core": "2.21.0"
@@ -35,5 +32,11 @@
     "jest-cli": "27.5.1",
     "puppeteer": "19.5.2"
   },
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  },
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs"
 }
