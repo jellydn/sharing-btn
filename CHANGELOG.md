@@ -1,5 +1,11 @@
 # sharing-btn
 
+## 0.1.3
+
+### Patch Changes
+
+- Add WhatsApp
+
 ## 0.1.2
 
 ### Patch Changes
