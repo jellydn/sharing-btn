@@ -12,6 +12,10 @@ export namespace Components {
          */
         "description": string;
         /**
+          * Which platform to share
+         */
+        "to": string;
+        /**
           * Website Url
          */
         "url": string;
@@ -34,6 +38,10 @@ declare namespace LocalJSX {
           * Share description text
          */
         "description"?: string;
+        /**
+          * Which platform to share
+         */
+        "to"?: string;
         /**
           * Website Url
          */

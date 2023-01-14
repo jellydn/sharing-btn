@@ -5,10 +5,11 @@
 
 ## Properties
 
-| Property      | Attribute     | Description            | Type     | Default                         |
-| ------------- | ------------- | ---------------------- | -------- | ------------------------------- |
-| `description` | `description` | Share description text | `string` | `''`                            |
-| `url`         | `url`         | Website Url            | `string` | `'https://www.productsway.com'` |
+| Property      | Attribute     | Description             | Type     | Default                         |
+| ------------- | ------------- | ----------------------- | -------- | ------------------------------- |
+| `description` | `description` | Share description text  | `string` | `''`                            |
+| `to`          | `to`          | Which platform to share | `string` | `'facebook,twitter,email'`      |
+| `url`         | `url`         | Website Url             | `string` | `'https://www.productsway.com'` |
 
 
 ----------------------------------------------
