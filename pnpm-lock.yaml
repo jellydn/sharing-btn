@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@changesets/cli': ^2.26.0
+  '@changesets/cli': 2.26.0
   '@stencil/core': 2.21.0
   '@types/jest': 27.5.2
   jest: 27.5.1
