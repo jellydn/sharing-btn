@@ -26,7 +26,7 @@ This is a starter project for building a standalone Web Component using Stencil.
 ## Usage
 
 ```html
-<script async type='module' src='https://unpkg.com/sharing-btn@0.1.0/dist/esm/sharing-btn.js'></script>
+<script async type='module' src='https://unpkg.com/sharing-btn@0.1.2/dist/esm/sharing-btn.js'></script>
 
 <sharing-btn url="https://productsway.com" description="IT Man Channel"></sharing-btn>
 ```
@@ -96,7 +96,7 @@ The first step for all three of these strategies is to [publish to NPM](https://
 
 ### Script tag
 
-- Put a script tag similar to this `<script type='module' src='https://unpkg.com/sharing-btn@0.1.0/dist/esm/sharing-btn.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script type='module' src='https://unpkg.com/sharing-btn@0.1.2/dist/esm/sharing-btn.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
