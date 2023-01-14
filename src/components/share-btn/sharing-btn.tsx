@@ -36,7 +36,6 @@ export class ShareBtn {
             </div>
           </a>
         )}
-
         {this.to.includes('twitter') && (
           <a
             class="resp-sharing-button__link"
@@ -55,7 +54,6 @@ export class ShareBtn {
             </div>
           </a>
         )}
-
         {this.to.includes('email') && (
           <a class="resp-sharing-button__link" href={`mailto:?subject=${this.description}&body=${this.url}`} target="_self" rel="noopener" aria-label="E-Mail">
             <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
@@ -65,6 +63,36 @@ export class ShareBtn {
                 </svg>
               </div>
               E-Mail
+            </div>
+          </a>
+        )}
+        {this.to.includes('linkedin') && (
+          <a
+            class="resp-sharing-button__link"
+            href={`https://www.linkedin.com/shareArticle?mini=true&url=${this.url}&summary=${this.description}`}
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
+              <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z" />
+                </svg>
+              </div>
+              LinkedIn
+            </div>
+          </a>
+        )}
+        {this.to.includes('telegram') && (
+          <a class="resp-sharing-button__link" href={`https://telegram.me/share/url?text=${this.description}&url=${this.url}`} target="_blank" rel="noopener" aria-label="Telegram">
+            <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--medium">
+              <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z" />
+                </svg>
+              </div>
+              Telegram
             </div>
           </a>
         )}
