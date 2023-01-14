@@ -156,6 +156,17 @@ background-color: #FF6600
   border-color: #2795e9;
 }
 
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
 .resp-sharing-button--linkedin {
   background-color: #0077b5;
   border-color: #0077b5;
@@ -165,6 +176,17 @@ background-color: #FF6600
 .resp-sharing-button--linkedin:active {
   background-color: #046293;
   border-color: #046293;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
 }
 
 .resp-sharing-button--telegram {
