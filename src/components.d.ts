@@ -12,6 +12,10 @@ export namespace Components {
          */
         "description": string;
         /**
+          * Show text before icon
+         */
+        "showText": boolean;
+        /**
           * Which platform to share
          */
         "to": string;
@@ -38,6 +42,10 @@ declare namespace LocalJSX {
           * Share description text
          */
         "description"?: string;
+        /**
+          * Show text before icon
+         */
+        "showText"?: boolean;
         /**
           * Which platform to share
          */
