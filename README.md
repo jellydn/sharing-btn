@@ -18,8 +18,9 @@
 
 > Social Sharing Buttons
 
-This is a starter project for building a standalone Web Component using Stencil.
+This is a demo project for building a standalone Web Component using Stencil.
 
+[![IT Man - Tech #31 - Sharing Button - Web Component using Stencil [Vietnamese]](https://i.ytimg.com/vi/jZUm2bHyF90/hqdefault.jpg)](https://www.youtube.com/watch?v=jZUm2bHyF90)
 
 ### ✨ [Demo](https://codepen.io/jellydn-1472379186/pen/wvxoGJM)
 
