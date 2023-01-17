@@ -2,14 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@changesets/cli': 2.26.0
-  '@stencil/core': 2.21.0
+  '@stencil/core': 2.22.1
   '@types/jest': 27.5.2
   jest: 27.5.1
   jest-cli: 27.5.1
   puppeteer: 19.5.2
 
 dependencies:
-  '@stencil/core': 2.21.0
+  '@stencil/core': 2.22.1
 
 devDependencies:
   '@changesets/cli': 2.26.0
@@ -839,8 +839,8 @@ packages:
       '@sinonjs/commons': 1.8.6
     dev: true
 
-  /@stencil/core/2.21.0:
-    resolution: {integrity: sha512-c4mVCl87wTV8u7ExQqiiQU5XrkzXjq8ll8skPlFHlJ7+5hGWhRpuVqKgVYJPN1mC/ucRqCUfjzSNUD7cFKHhkw==}
+  /@stencil/core/2.22.1:
+    resolution: {integrity: sha512-L4EsWLXYkg24BfrR3aS1df3BSkH0RFyza+Tu84MaYoF2csiKTJxDTZuFHSnJeF8UdgzV7CBfnsIEV6r3s0+h3g==}
     engines: {node: '>=12.10.0', npm: '>=6.0.0'}
     hasBin: true
     dev: false
