@@ -6,7 +6,7 @@ specifiers:
   '@types/jest': 27.5.2
   jest: 27.5.1
   jest-cli: 27.5.1
-  puppeteer: 19.6.0
+  puppeteer: 19.6.1
 
 dependencies:
   '@stencil/core': 2.22.2
@@ -16,7 +16,7 @@ devDependencies:
   '@types/jest': 27.5.2
   jest: 27.5.1
   jest-cli: 27.5.1
-  puppeteer: 19.6.0
+  puppeteer: 19.6.1
 
 packages:
 
@@ -3386,8 +3386,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core/19.6.0:
-    resolution: {integrity: sha512-GvqWdHr9eY/MFR5pXf9o0apnrTmG0hhS7/TtCPfeAvCbaUS1bsLMZWxNGvI/QbviRu4xxi6HrR7VW4x/4esq1Q==}
+  /puppeteer-core/19.6.1:
+    resolution: {integrity: sha512-TdbqPYGHRgaqO1XPOM5ThE7uSs5NsYraOUU546okJz7jR9He5wnGuFd6LppoeWt8a4eM5RgzmICxeDUD5QwQtA==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -3407,8 +3407,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer/19.6.0:
-    resolution: {integrity: sha512-KpRjn/bosTWe8xOQ/F5J1UmQ4inR77ADddn8G6MqMPp/y9Tl+7EycXgrjO0/3i/OQfHi5bsvkTKXRkm0ieo/ew==}
+  /puppeteer/19.6.1:
+    resolution: {integrity: sha512-gcqNilThyBPrUMvo2UZNG4KVoMjhCfCV7/84mTVk3oo0k65iO7hEKrB4waiJ15O0MHQpM79+XBHavRgBbRXUWQ==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
@@ -3416,7 +3416,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.6.0
+      puppeteer-core: 19.6.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
