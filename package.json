@@ -30,7 +30,7 @@
     "@types/jest": "27.5.2",
     "jest": "27.5.1",
     "jest-cli": "27.5.1",
-    "puppeteer": "19.8.0"
+    "puppeteer": "19.8.2"
   },
   "publishConfig": {
     "access": "public"
