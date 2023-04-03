@@ -19,8 +19,8 @@ devDependencies:
     specifier: 27.5.1
     version: 27.5.1
   puppeteer:
-    specifier: 19.8.2
-    version: 19.8.2
+    specifier: 19.8.3
+    version: 19.8.3
 
 packages:
 
@@ -832,8 +832,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@puppeteer/browsers@0.3.1:
-    resolution: {integrity: sha512-WTFVqWY7ipI+CsJRb6vEddYJ/lMl2bHYP5BjFDBM9JMKPjJNT4psXz6DLuJpi3EkG80Q0ef5Azzv3gKu9MvMUg==}
+  /@puppeteer/browsers@0.3.2:
+    resolution: {integrity: sha512-YAwrqy68PskkCDnSsv0afR8l8u90KhodcIFXCage5NLAoeWm0STGmtVugLBp2wc5PnhnCapCKkMjp9fYjvJl2g==}
     engines: {node: '>=14.1.0'}
     hasBin: true
     peerDependencies:
@@ -3434,8 +3434,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@19.8.1:
-    resolution: {integrity: sha512-7yPMzusYRvJ/laLaMFIQ01E9WakKkJJXLsMAymH6y5EKqYe5hhn68/SbvF+1YJMb843GftU7gT86Fw8y5jkn3w==}
+  /puppeteer-core@19.8.3:
+    resolution: {integrity: sha512-+gPT43K3trUIr+7+tNjCg95vMgM9RkFIeeyck3SXUTBpGkrf6sxfWckncqY8MnzHfRcyapvztKNmqvJ+Ngukyg==}
     engines: {node: '>=14.14.0'}
     peerDependencies:
       typescript: '>= 4.7.4'
@@ -3460,16 +3460,16 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@19.8.2:
-    resolution: {integrity: sha512-LPdNVYMR6ddp4YS3GK1bqKsasCJj1aZjt9dNOKcnzKezuMoishlHY6bCnFLjTc34iqnGzIrJp07TQ9M+aML2+g==}
+  /puppeteer@19.8.3:
+    resolution: {integrity: sha512-sKtt3aDRAcWuemeEtRaJqWKRlQ72OyKVcxX3Ur3KyFUEEzb2sEHpFc2mBlTMPmzOiNg5dB4dnxfelV9/xypJrA==}
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 0.3.1
+      '@puppeteer/browsers': 0.3.2
       cosmiconfig: 8.1.3
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.8.1
+      puppeteer-core: 19.8.3
     transitivePeerDependencies:
       - bufferutil
       - encoding
