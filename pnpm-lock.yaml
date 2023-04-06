@@ -19,8 +19,8 @@ devDependencies:
     specifier: 27.5.1
     version: 27.5.1
   puppeteer:
-    specifier: 19.8.3
-    version: 19.8.3
+    specifier: 19.8.5
+    version: 19.8.5
 
 packages:
 
@@ -832,8 +832,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@puppeteer/browsers@0.3.2:
-    resolution: {integrity: sha512-YAwrqy68PskkCDnSsv0afR8l8u90KhodcIFXCage5NLAoeWm0STGmtVugLBp2wc5PnhnCapCKkMjp9fYjvJl2g==}
+  /@puppeteer/browsers@0.4.0:
+    resolution: {integrity: sha512-3iB5pWn9Sr55PKKwqFWSWjLsTKCOEhKNI+uV3BZesgXuA3IhsX8I3hW0HI+3ksMIPkh2mVYzKSpvgq3oicjG2Q==}
     engines: {node: '>=14.1.0'}
     hasBin: true
     peerDependencies:
@@ -3434,8 +3434,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@19.8.3:
-    resolution: {integrity: sha512-+gPT43K3trUIr+7+tNjCg95vMgM9RkFIeeyck3SXUTBpGkrf6sxfWckncqY8MnzHfRcyapvztKNmqvJ+Ngukyg==}
+  /puppeteer-core@19.8.5:
+    resolution: {integrity: sha512-zoGhim/oBQbkND6h4Xz4X7l5DkWVH9wH7z0mVty5qa/c0P1Yad47t/npVtt2xS10BiQwzztWKx7Pa2nJ5yykdw==}
     engines: {node: '>=14.14.0'}
     peerDependencies:
       typescript: '>= 4.7.4'
@@ -3443,6 +3443,7 @@ packages:
       typescript:
         optional: true
     dependencies:
+      '@puppeteer/browsers': 0.4.0
       chromium-bidi: 0.4.6(devtools-protocol@0.0.1107588)
       cross-fetch: 3.1.5
       debug: 4.3.4
@@ -3460,16 +3461,16 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@19.8.3:
-    resolution: {integrity: sha512-sKtt3aDRAcWuemeEtRaJqWKRlQ72OyKVcxX3Ur3KyFUEEzb2sEHpFc2mBlTMPmzOiNg5dB4dnxfelV9/xypJrA==}
+  /puppeteer@19.8.5:
+    resolution: {integrity: sha512-WSjouU7eux6cwBMEz4A7mDRVZWTQQTDXrb1R6AhKDdeEgpiBBkAzcAusPhILxiJOKj60rULZpWuCZ7HZIO6GTA==}
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 0.3.2
+      '@puppeteer/browsers': 0.4.0
       cosmiconfig: 8.1.3
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.8.3
+      puppeteer-core: 19.8.5
     transitivePeerDependencies:
       - bufferutil
       - encoding
