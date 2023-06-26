@@ -23,7 +23,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "3.4.0"
+    "@stencil/core": "3.4.1"
   },
   "devDependencies": {
     "@changesets/cli": "2.26.1",
