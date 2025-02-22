@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@stencil/core':
-    specifier: 3.4.2
-    version: 3.4.2
+    specifier: 4.27.0
+    version: 4.27.0
 
 devDependencies:
   '@changesets/cli':
@@ -838,9 +838,9 @@ packages:
       '@sinonjs/commons': 1.8.6
     dev: true
 
-  /@stencil/core@3.4.2:
-    resolution: {integrity: sha512-FAUhUVaakCy29nU2GwO/HQBRV1ihPRvncz3PUc8oR+UJLAxGabTmP8PLY7wvHfbw+Cvi4VXfJFTBvdfDu6iKPQ==}
-    engines: {node: '>=14.10.0', npm: '>=6.0.0'}
+  /@stencil/core@4.27.0:
+    resolution: {integrity: sha512-GOA+pvSpwL734yijTB8+LHesqPq3o/K6IaCrNoZybNVpe6lgVfvciDwPeP1XOj6JZpA/Lp8Uh3U9znoS8qgwOA==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
 
