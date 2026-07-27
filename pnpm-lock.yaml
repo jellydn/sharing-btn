@@ -82,7 +82,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.29.7
       '@babel/helper-validator-option': 7.29.7
-      browserslist: 4.28.6
+      browserslist: 4.28.7
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: true
@@ -1130,8 +1130,8 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: true
 
-  /baseline-browser-mapping@2.10.43:
-    resolution: {integrity: sha512-AjYpR78kDWAY3Efj+cDTFH9t9SCoL7OoTp1BOb0mQV7S+6CiLwnWM3FyxhJtdPufDFKzmCSFoUncKjWgJEZTCQ==}
+  /baseline-browser-mapping@2.11.4:
+    resolution: {integrity: sha512-s4+sLr9mZ/CyqeRritFeYV/Zx73OAtmaHn6kkBS1XRoJn1hrg3xIDUcpicAEX68tkcIN0iBCgti31C8zxtkhsQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: true
@@ -1169,16 +1169,16 @@ packages:
     resolution: {integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==}
     dev: true
 
-  /browserslist@4.28.6:
-    resolution: {integrity: sha512-FQBYNK15VMslhLHpA7+n+n1GOlF1kId2xcCg7/j95f24AOF6VDYMNH4mFxF7KuaTdv627faazpOAjFzMrfJOUw==}
+  /browserslist@4.28.7:
+    resolution: {integrity: sha512-JxV13hNrFxqjOc8alRbq9dK1MM79NEXYpma2B2J4wAtpWS5zIEIKqWPGCl7N4o7Uc7B7itylh7SuDujATRyyTw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      baseline-browser-mapping: 2.10.43
+      baseline-browser-mapping: 2.11.4
       caniuse-lite: 1.0.30001806
-      electron-to-chromium: 1.5.393
+      electron-to-chromium: 1.5.396
       node-releases: 2.0.51
-      update-browserslist-db: 1.2.3(browserslist@4.28.6)
+      update-browserslist-db: 1.2.3(browserslist@4.28.7)
     dev: true
 
   /bser@2.1.1:
@@ -1460,8 +1460,8 @@ packages:
       gopd: 1.2.0
     dev: true
 
-  /electron-to-chromium@1.5.393:
-    resolution: {integrity: sha512-kiDJdIUawuEIcp9XoICKp1iTYDEbgguIPq526N1Q7jIQDeQ3CqoMx71025PI/7E48Ddtw2HuWsVjY7afEgNxmg==}
+  /electron-to-chromium@1.5.396:
+    resolution: {integrity: sha512-yHiw2Y3C3H9U6TMbOfoWK/BPreiOPXRfTWPBwQBoZG6/8TB6eOPnsy5oaRYuatR7Fw2SJ4kKforgufeo7fq0EQ==}
     dev: true
 
   /emittery@0.8.1:
@@ -3346,13 +3346,13 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /update-browserslist-db@1.2.3(browserslist@4.28.6):
+  /update-browserslist-db@1.2.3(browserslist@4.28.7):
     resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.28.6
+      browserslist: 4.28.7
       escalade: 3.2.0
       picocolors: 1.1.1
     dev: true
